@@ -1,0 +1,321 @@
+[
+  {
+    "ContainingType": "Aircraft.Controllers.FlightController",
+    "Method": "Delete",
+    "RelativePath": "Flight/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Delete by Id"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.FlightController",
+    "Method": "Get",
+    "RelativePath": "Flight/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.FlightController",
+    "Method": "Get",
+    "RelativePath": "Flight/Get{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.FlightController",
+    "Method": "Post",
+    "RelativePath": "Flight/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newFlight",
+        "Type": "Aircraft.Controllers.FlightController\u002BFlightMainInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Add new flight"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.FlightController",
+    "Method": "Put",
+    "RelativePath": "Flight/Put",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "flightUpdate",
+        "Type": "Aircraft.Controllers.FlightController\u002BFlightMainInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Update by Id"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "Get/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Aircraft.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Aircraft.Models.Register",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.AuthController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "register - admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Aircraft.Models.Register",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.SeatController",
+    "Method": "Delete",
+    "RelativePath": "Seat/Delete{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.SeatController",
+    "Method": "Get",
+    "RelativePath": "Seat/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.SeatController",
+    "Method": "Get",
+    "RelativePath": "Seat/Get{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.SeatController",
+    "Method": "Post",
+    "RelativePath": "Seat/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newSeat",
+        "Type": "Aircraft.Controllers.SeatController\u002BSeatMainInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.SeatController",
+    "Method": "Put",
+    "RelativePath": "Seat/Put{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "seatForUpdate",
+        "Type": "Aircraft.Controllers.SeatController\u002BSeatMainInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.TripController",
+    "Method": "Delete",
+    "RelativePath": "Trip/Delete/trips{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteById"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.TripController",
+    "Method": "Post",
+    "RelativePath": "Trip/Post/trips",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTrip",
+        "Type": "Aircraft.Controllers.TripController\u002BTripMainInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddNewTrip"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.TripController",
+    "Method": "Put",
+    "RelativePath": "Trip/Put/trips{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "tripToUpdate",
+        "Type": "Aircraft.Controllers.TripController\u002BTripMainInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateTripById"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.TripController",
+    "Method": "Get",
+    "RelativePath": "Trip/trips",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetTrip"
+  },
+  {
+    "ContainingType": "Aircraft.Controllers.TripController",
+    "Method": "GetById",
+    "RelativePath": "Trip/trips{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetTripById"
+  }
+]
